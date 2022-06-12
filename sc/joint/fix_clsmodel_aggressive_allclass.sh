@@ -1,0 +1,1 @@
+python main.py --task multi_joint --exp_name fixcls_conditional_aggressive_allclass --dataset_root ./data/ --encoder foldnet --k 16 --shape sphere --dataset modelnet40 --gpu 7   --batch_size 16 --load_clsmodel snapshot/Poison_baseline/models/modelnet40_best.pkl --load_generator snapshot/Reconstruct_sphere_2048_conditional/models/modelnet40_best.pkl

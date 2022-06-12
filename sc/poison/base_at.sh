@@ -1,0 +1,1 @@
+python main.py --task multi_poison --exp_name allclass --dataset_root ./data/ --encoder foldnet --k 16 --shape sphere --dataset modelnet40 --gpu 3  --generator_path snapshot/Multi_Joint_fixcls_conditional_aggressive_allclass/models/modelnet40_best.pkl --clean_portion 0.3

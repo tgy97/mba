@@ -1,7 +1,7 @@
 # MorphNet
 This repo contains our core implementation of our paper "Poisoning MorphNet for Clean-Label Backdoor Attack to Point Clouds".
 ## Dataset
-Follow the instruction in https://github.com/antao97/UnsupervisedPointCloudReconstruction.
+Follow the instruction in https://github.com/antao97/UnsupervisedPointCloudReconstruction to prepare datasets.
 
 ## Usage
 * use scripts in `sc/reconstruct` to train a vanilla generator.
